@@ -17,6 +17,12 @@ namespace Ejercicio2_4
             {
                 factorial *= i;
             }
+            for (int i = numero - 1; i >= 1; i--)
+            {
+                Console.Write(i + " x ");
+            }
+            Console.WriteLine("1 = " + factorial);
+
             Console.WriteLine("El factorial de " + numero + " es: " + factorial);
             Console.ReadKey(); //Para ver el resultado antes de que se cierre la consola
         }
