@@ -10,7 +10,7 @@ namespace Ejercicio2_5
     {
         static void Main(string[] args)
         {
-            for (int i = 65; i <= 90; i++)
+            for (int i = 90; i >= 65; i--)
             {
                 Console.Write((char)i+" ");
             }
