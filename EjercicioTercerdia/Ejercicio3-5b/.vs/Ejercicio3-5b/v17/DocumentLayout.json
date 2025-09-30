@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\source\\repos\\Ejercicio3-5b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE01521F-557E-46B1-AB17-2171AB59629E}|Ejercicio3-5b\\Ejercicio3-5b.csproj|c:\\users\\alumno\\source\\repos\\ejercicio3-5b\\ejercicio3-5b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE01521F-557E-46B1-AB17-2171AB59629E}|Ejercicio3-5b\\Ejercicio3-5b.csproj|solutionrelative:ejercicio3-5b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\Ejercicio3-5b\\Ejercicio3-5b\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio3-5b\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\Ejercicio3-5b\\Ejercicio3-5b\\Program.cs",
+              "RelativeToolTip": "Ejercicio3-5b\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:00:37.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

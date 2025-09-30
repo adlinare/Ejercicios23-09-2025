@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\bin\Debug\Ejercicio3-10.exe.config
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\bin\Debug\Ejercicio3-10.exe
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\bin\Debug\Ejercicio3-10.pdb
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\obj\Debug\Ejercicio3-10.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\obj\Debug\Ejercicio3-10.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\obj\Debug\Ejercicio3-10.exe
+C:\Users\alumno\source\repos\Ejercicio3-10\Ejercicio3-10\obj\Debug\Ejercicio3-10.pdb
