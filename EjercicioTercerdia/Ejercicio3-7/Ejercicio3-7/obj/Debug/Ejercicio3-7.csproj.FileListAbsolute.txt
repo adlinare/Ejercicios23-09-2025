@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\obj\Debug\Ejercicio3-7.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\obj\Debug\Ejercicio3-7.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\bin\Debug\Ejercicio3-7.exe.config
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\bin\Debug\Ejercicio3-7.exe
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\bin\Debug\Ejercicio3-7.pdb
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\obj\Debug\Ejercicio3-7.exe
+C:\Users\alumno\source\repos\Ejercicio3-7\Ejercicio3-7\obj\Debug\Ejercicio3-7.pdb
