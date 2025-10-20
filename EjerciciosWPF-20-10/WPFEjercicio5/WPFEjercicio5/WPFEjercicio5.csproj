@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\point_sign_assemble_arrows_meeting_minimize_icon_267826.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\point_sign_assemble_arrows_meeting_minimize_icon_267826.ico" />
+  </ItemGroup>
+
+</Project>
