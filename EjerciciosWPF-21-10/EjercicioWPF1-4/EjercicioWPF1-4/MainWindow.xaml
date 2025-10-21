@@ -1,0 +1,27 @@
+﻿<Window x:Class="EjercicioWPF1_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjercicioWPF1_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox
+            Margin="15"
+            AcceptsReturn="True"
+            TextWrapping="Wrap"
+            VerticalScrollBarVisibility="Auto"
+            SpellCheck.IsEnabled="True"
+            xml:lang="es-ES"
+            FontSize="14"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch" TextChanged="TextBox_TextChanged"
+            >Algo oscuro crecia en mí y fui a hacerme una lobotomía ni los consejos del doctor ni un estudio de antropología supieron qué tenía, hasta que me dijeron   
+            lo que me pasaba, es que echaba de menos reírme al amanecer. Estaba muy triste y no sé porqué con lo bonita que es la primavera dejé las penas en el andén
+            y ahora voy flotando por las aceras. Prefiero ser un indio con alma de payaso No tengo dinero pero regalo abrazos
+            A todo el que hablo con él hola, buenos días, hoy me siento bien yo me vengo arriba y me subo por la pared. Llega la mañana y no me puedo parar vivo peleando en el 
+            ojo del huracán
+        </TextBox>
+    </Grid>
+</Window>

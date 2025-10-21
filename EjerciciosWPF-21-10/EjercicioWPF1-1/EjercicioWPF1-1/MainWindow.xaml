@@ -1,0 +1,27 @@
+﻿<Window x:Class="EjercicioWPF1_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjercicioWPF1_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="10" TextWrapping="Wrap">
+            <Run Text="Prueba de run con colores " Foreground="Red"/>
+            <Run Text="rojo" Foreground="Red" FontWeight="Bold"/>
+            <LineBreak/>
+
+            <Run Text="Este run tiene el color " Foreground="Blue"/>
+            <Run Text="azul" Foreground="Blue"/>
+            <LineBreak/>
+
+            <Run Text="Aquí mezclamos varios colores: " Foreground="Black"/>
+            <Run Text="verde" Foreground="Green"/>
+            <Run Text=", " Foreground="Black"/>
+            <Run Text="naranja" Foreground="Orange"/>
+            <Run Text=" y " Foreground="Black"/>
+            <Run Text="morado" Foreground="Purple"/>
+        </TextBlock>
+    </Grid>
+</Window>
