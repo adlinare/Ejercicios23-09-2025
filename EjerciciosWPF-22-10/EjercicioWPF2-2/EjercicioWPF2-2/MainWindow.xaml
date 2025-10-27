@@ -1,0 +1,59 @@
+﻿<Window x:Class="EjercicioWPF2_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjercicioWPF2_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="20">
+        <Label x:Name="lblPregunta" 
+               FontWeight="Bold" 
+               FontSize="16"
+               Content="¿Cuál es el lenguaje principal de programación para Android?"/>
+
+        <RadioButton x:Name="rbtnJava" Margin="10,5,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/java.png" Width="35" Height="35" Margin="0,0,8,0"/>
+                <TextBlock Text="Java" VerticalAlignment="Center"/>
+            </StackPanel>
+        </RadioButton>
+
+        <RadioButton x:Name="rbtnPython" Margin="10,5,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/python.png" Width="35" Height="35" Margin="0,0,8,0"/>
+                <TextBlock Text="Python" VerticalAlignment="Center"/>
+            </StackPanel>
+        </RadioButton>
+
+        
+        <RadioButton x:Name="rbtnKotlin" Margin="10,5,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/kotlin.png" Width="35" Height="35" Margin="0,0,8,0"/>
+                <TextBlock Text="Kotlin" VerticalAlignment="Center"/>
+            </StackPanel>
+        </RadioButton>
+
+
+        <RadioButton x:Name="rbtnCSharp" Margin="10,5,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/c.png" Width="35" Height="35" Margin="0,0,8,0"/>
+                <TextBlock Text="C#" VerticalAlignment="Center"/>
+            </StackPanel>
+        </RadioButton>
+
+        
+        <Button x:Name="btnCorregir"
+                Content="Corregir"
+                Width="100"
+                Margin="0,15,0,0"
+                Click="btnCorregir_Click"/>
+
+
+        <Label x:Name="lblIntentos"
+               Content="Intentos restantes: 2"
+               Margin="0,10,0,0"
+               FontStyle="Italic"
+               Foreground="Gray"/>
+    </StackPanel>
+</Window>

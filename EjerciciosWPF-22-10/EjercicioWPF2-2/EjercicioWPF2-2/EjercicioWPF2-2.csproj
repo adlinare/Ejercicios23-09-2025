@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>EjercicioWPF2_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\c.png" />
+    <None Remove="Assets\java.png" />
+    <None Remove="Assets\kotlin.png" />
+    <None Remove="Assets\python.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\c.png" />
+    <Resource Include="Assets\java.png" />
+    <Resource Include="Assets\kotlin.png" />
+    <Resource Include="Assets\python.png" />
+  </ItemGroup>
+
+</Project>
