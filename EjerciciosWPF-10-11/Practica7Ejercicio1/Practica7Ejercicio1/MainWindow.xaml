@@ -1,0 +1,17 @@
+﻿<Window x:Class="Practica7Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica7Ejercicio1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button x:Name="btnMostrarMensaje" Content="Mostrar Mensaje" Width="150" Height="20" Margin="5" Click="btnMostrarMensaje_Click"/>
+        <Button x:Name="btnMensajeTitulo" Content="Mensaje con Título" Width="150" Height="20" Margin="5" Click="btnMensajeTitulo_Click"/>
+        <Button x:Name="btnMensajeBotones" Content="Mensaje con Botones" Width="150" Height="20" Margin="5" Click="btnMensajeBotones_Click"/>
+        <Button x:Name="btnMensajeRespuesta" Content="Mensaje con Respuesta" Width="150" Height="20" Margin="5" Click="btnMensajeRespuesta_Click"/>
+        <Button x:Name="btnMensajeIcono" Content="Mensaje con Icono" Width="150" Height="20" Margin="5" Click="btnMensajeIcono_Click"/>
+        <Button x:Name="btnMensjeRespuestaDefecto" Content="Mensaje con Respuesta por Defecto" Width="200" Height="20" Margin="5" Click="btnMensjeRespuestaDefecto_Click"/>
+    </StackPanel>
+</Window>
