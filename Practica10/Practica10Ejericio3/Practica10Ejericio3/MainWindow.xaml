@@ -1,0 +1,23 @@
+﻿<Window x:Class="Practica10Ejericio3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica10Ejericio3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <Button x:Name="AddTareaButton" Content="Agregar nueva tarea" Click="AddTareaButton_Click" Margin="10,0"/>
+            <Button x:Name="ShowNext" Content="Mostrar siguiente" Click="ShowNext_Click" Margin="10,0" />
+            <Button x:Name="DoNext" Content="Realizar siguiente" Click="DoNext_Click" Margin="10,0"/>
+            <Button x:Name="ShowNumber" Content="Mostrar nº de tareas" Click="ShowNumber_Click" Margin="10,0"/>
+            <Button x:Name="ShowPending" Content="Mostrar pendientes" Click="ShowPending_Click" Margin="10,0"/>
+        </StackPanel>
+        <TextBlock x:Name="OutputTextBlock" Grid.Row="1" Margin="10" TextWrapping="Wrap"/>
+    </Grid>
+</Window>

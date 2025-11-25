@@ -1,0 +1,25 @@
+﻿<Window x:Class="Practica10Ejericio3.DataEntruDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica10Ejericio3"
+        mc:Ignorable="d"
+        Title="DataEntruDialog" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,10,10,0">
+            <Label Content="Introduce la descripción de la tarea:"/>
+            <TextBox x:Name="DescriptionTextBox" Margin="30,0,0,0" Width="500" Height="30"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="1" Orientation="Horizontal"  HorizontalAlignment="Center" Margin="0,30,10,0">
+            <Button Content="Aceptar" Width="75" Click="ButtonAccept" Margin="0,0,10,0"/>
+            <Button Content="Cancelar" Width="75" Click="ButtonCancel"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

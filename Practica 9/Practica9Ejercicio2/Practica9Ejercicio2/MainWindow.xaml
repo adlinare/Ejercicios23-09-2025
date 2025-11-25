@@ -1,0 +1,27 @@
+﻿<Window x:Class="Practica9Ejercicio2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica9Ejercicio2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Margin="20">
+            <StackPanel>
+                <TextBlock Text="Seleccione un color para el fondo de la ventana:" 
+                       Margin="0,0,0,10" 
+                       FontSize="14"/>
+
+                <ComboBox x:Name="ColorComboBox"
+                      SelectionChanged="ColorComboBox_SelectionChanged"
+                      Width="200"
+                      HorizontalAlignment="Left"
+                      Padding="5"/>
+
+                <TextBlock Margin="0,20,0,0" 
+                       Text="La lista de colores se carga desde el código C# (Colores disponibles en la clase Colors)."
+                       TextWrapping="Wrap"/>
+            </StackPanel>
+        </Grid>
+    </Window>
